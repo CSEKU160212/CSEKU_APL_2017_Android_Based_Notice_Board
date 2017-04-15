@@ -1,0 +1,3 @@
+Notce_type :For all,Only my batch,
+
+subscription...channel will only show u the batch notice of Noticetype 'For all'which batch u subscribe including all type of notice of ur batch.. 

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/create_notice_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cseku_160212.noticeboard.CreateNoticeActivity"
+    android:weightSum="1"
+    android:background="@drawable/not">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Title"
+        android:ems="10"
+        android:id="@+id/Title"
+        android:background="@android:color/background_light" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/colorPrimary" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/Description"
+        android:layout_weight="0.18"
+        android:background="@android:color/background_light" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textVie"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:background="@android:color/background_light"
+            android:gravity="center_vertical"
+            android:text="Notice Type :"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:background="@android:color/background_light"
+            android:layout_height="30dp"
+            android:layout_weight="0.33"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/Post"
+        android:layout_width="214dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.09"
+        android:background="@android:color/holo_green_light"
+        android:text="Post"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="214dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.09"
+        android:background="@android:color/holo_red_light"
+        android:text="Update"
+        android:visibility="gone"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        android:text="Notice created by You :" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary" />
+
+    <ListView
+        android:id="@+id/write"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/background_light"
+        android:cacheColorHint="@android:color/black"
+        android:divider="@android:color/holo_green_light"
+        android:layout_weight="0.67" />
+
+</LinearLayout>

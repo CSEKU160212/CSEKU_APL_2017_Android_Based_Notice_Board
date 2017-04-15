@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/not"
+    android:id="@+id/activity_channel"
+    tools:context="com.cseku_160212.noticeboard.SubscriptionActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click on for Subsctibe class"
+        android:textSize="24dp"
+        android:textColor="@color/colorAccent"
+        android:layout_weight="0.14" />
+
+    <ListView
+        android:id="@+id/subscribe"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:background="@android:color/background_light" />
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:background="@android:color/background_light"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_weight="0.50" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14" />
+
+</LinearLayout>

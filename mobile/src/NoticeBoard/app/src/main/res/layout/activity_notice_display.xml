@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_subscribe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/not"
+    android:orientation="vertical"
+    tools:context="com.cseku_160212.noticeboard.NoticeDisplayActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cseku_160212.noticeboard.OldNoticeActivity"
+    android:weightSum="1"
+    android:background="@drawable/not">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:background="@android:color/background_light"
+        android:text="Old Notice Title shows below"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp"
+        android:layout_weight="1.16" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary" />
+
+    <ListView
+        android:id="@+id/Notification"
+        android:layout_width="match_parent"
+        android:layout_height="458dp"
+        android:background="@android:color/background_light"
+        android:cacheColorHint="@android:color/black"
+        android:divider="@android:color/holo_green_light" />
+
+</LinearLayout>
