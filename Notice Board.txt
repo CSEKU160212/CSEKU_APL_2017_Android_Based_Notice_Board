@@ -1,5 +1,4 @@
 Project Name: Android Based Notice Board
-Project Manager: Kazi Masudul Alam Sir
 
 Team Member: 
 		Emamul Haque Manna (160204) 
