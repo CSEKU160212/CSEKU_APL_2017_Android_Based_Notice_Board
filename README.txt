@@ -34,7 +34,7 @@ Notice এর জন্য চারটা section এখানে দেওয়�
 
 
 
-Youtube Link: https://www.youtube.com/watch?v=r4d381CBkUY&t=142s
+Youtube Link: <a href='https://www.youtube.com/watch?v=r4d381CBkUY&t=142s'>Project Video</a>
 
-Update Version: https://github.com/CSEKU160212/CSEKU_SDP_2017_Notice_Board
-Youtube Link: https://www.youtube.com/watch?v=r4d381CBkUY&t=44s
+Update Version:<a href='https://github.com/CSEKU160212/CSEKU_SDP_2017_Notice_Board'></a>
+Youtube Link: <a href='https://www.youtube.com/watch?v=r4d381CBkUY&t=44s'>Project Video</a>
